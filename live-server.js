@@ -8,7 +8,9 @@ const live_server_opts = {
 	open: true,
 	mount: [],
 	proxy: [],
-	logLevel: 2
+	logLevel: 2,
+	root: "./app",
+	file: "index.html"
 };
 
 liveServer.start(live_server_opts);

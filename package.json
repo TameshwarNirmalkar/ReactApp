@@ -1,12 +1,12 @@
 {
-  "name": "samplereactapp",
+  "name": "reactapp",
   "version": "1.0.0",
   "description": "this is sample react learning",
-  "main": "index.html",
+  "main": "app/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "forever start live-server.js",
-    "stop" : "forever stop live-server.js"
+    "stop": "forever stop live-server.js"
   },
   "author": "Tameshwar Nirmalkar",
   "license": "MIT",
