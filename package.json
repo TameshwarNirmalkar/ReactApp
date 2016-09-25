@@ -1,0 +1,18 @@
+{
+  "name": "samplereactapp",
+  "version": "1.0.0",
+  "description": "this is sample react learning",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start live-server.js",
+    "stop" : "forever stop live-server.js"
+  },
+  "author": "Tameshwar Nirmalkar",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "forever": "^0.15.2",
+    "live-server": "^1.1.0"
+  }
+}
